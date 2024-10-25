@@ -1,0 +1,60 @@
+*{
+    margin: 100;
+    padding: 100;
+  
+    box-sizing: border-box;
+}
+body{
+    box-sizing: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#d0bbbb, #3a4452);
+    }
+.age_Calculator{
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+    border: 5px solid black;
+}
+label{
+    text-wrap: 50px;
+    font-style: oblique;
+    font-size: 25px;
+    color: rgb(0, 13, 35);
+}
+h1{
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(112, 0, 0);
+}
+marquee{
+    color: rgb(5, 55, 11);
+}
+#resetDate{
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 0, 0);
+    box-shadow: #ffffff;
+}
+#cDate1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(18, 96, 11);
+    box-shadow: #ffffff;
+}
+input{
+    margin: 10px;
+    font-size: 19px;
+}
+h4{
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(9, 38, 1);
+}
+#currentAge{
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(51, 1, 1);
+
+}

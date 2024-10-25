@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="age.css">
+    <link rel="icon" type="image2/jpg" href="image2.jpg">
+    
+    <title>Age_Calculator</title>
+</head>
+<body>
+    <div class="age_Calculator" align = "center">
+        <marquee behavior="scroll" direction="left">Welcome to Age_Calculator. </marquee>
+        <h1>Age Calculator</h1> 
+            <label>Select birth date: </label>
+            <input id="inputDob" type="date" value="2000-01-01"><br>
+            <label>Select find date : </label>
+            <input id="cdate"type="date" value=""><br></br>
+            <div align = "center">
+            <input type="button" onclick="calculateAge1()" value="Calculate" id = "cDate1">
+            <input type="button" onclick="resetDate()" value="Reset" id = "resetDate"><br>
+            <div>
+                <h4>Age: </h4>
+            </div>
+            
+            <div id="currentAge"></div>
+            <script src="age.js"></script>
+
+        </div>
+</body>
+</html>
